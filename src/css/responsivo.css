@@ -1,0 +1,50 @@
+@media (max-width: 425px) {
+  body::before {
+    background: url(../images/bg-mobile.svg) center center no-repeat;
+  }
+
+  .header {
+    padding: 30px 28px;
+  }
+
+  .header img{
+    width: 100px;
+  }
+
+  .ilustration img{
+    width: 32.5rem;
+    padding: 0 3rem;
+  }
+
+  .ilustration{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .ilustration .ilustration-informations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ilustration .ilustration-informations .title{
+    font-size: 2rem;
+    max-width: 250px;
+  }
+
+  .ilustration .ilustration-informations .description{
+    font-size: 1.4rem;
+    max-width: 270px;
+  }
+
+  .ilustration .ilustration-informations .bnt-register{
+    padding: 10px 70px;
+  }
+
+  .contacts{
+    justify-content: center;
+  }
+  .contacts a i{
+    font-size: 10px;
+  }
+}
